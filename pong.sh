@@ -24,7 +24,6 @@ blue="\\033[36m"
 #	clear
 
 #menu
-#	if [ -z $* ]
 	if [ "$1" != '--client' ] && [ "$1" != '--server' ]
 		then
 		echo -e "\tThis script is a simple pong game. It runs over two separates windows"
@@ -210,5 +209,3 @@ blue="\\033[36m"
 			sleep 0.03s
 			done
 		fi
-
-
